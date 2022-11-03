@@ -5,6 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     border-bottom: 1px solid gray;
@@ -84,11 +88,11 @@ header {
 }
 
 .blue-btn {
-    color: blue;
+    color: #4285F4;
     border: none;
     padding-bottom: 10px;
     width: 48px;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #4285F4;
     font-size: 13px;
     background: none;
     color: gray;
@@ -109,7 +113,7 @@ header {
 
 .title-of-informations {
     color: rgb(29, 1, 189);
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 8.3rem;
     margin-bottom: 0;
     margin-top: 0;
@@ -119,7 +123,7 @@ header {
 
 .informations-texts {
     margin-left: 8.3rem;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 0;
     margin-top: 0;
     font-family: 'Roboto', sans-serif;
@@ -127,7 +131,7 @@ header {
 
 .green-text {
     color: green;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .bottom-text {
@@ -137,6 +141,148 @@ header {
 
 .none-bottom-text {
     margin-bottom: 1.5rem;
+}
+
+.title-of-bottom {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 7.7rem;
+}
+
+.bottom-informations {
+    display: flex;
+    margin-left: 5.5rem;
+    width: 350px;
+}
+
+.bottom-informations ul {
+    
+}
+
+.bottom-informations ul li{
+    list-style: none;
+}
+
+.bottom-informations li {
+    color: rgb(29, 1, 189);
+}
+
+.bottom-pages {
+    margin-left: 15.7rem;
+    margin-top: 2.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bottom-pages ul {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.bottom-pages ul li {
+    list-style: none;
+}
+
+.bottom-pages li {
+    color: #4285F4;
+    font-size: 14px;
+}
+
+.previous-page-list {
+    position: relative;
+}
+
+.previous-page-list::before {
+    content: "<";
+    position: absolute;
+    bottom: 20px;
+    left: 36px;
+    font-size: 19px;
+}
+
+.next-page-list {
+    position: relative;
+}
+
+.next-page-list::before {
+    content: ">";
+    position: absolute;
+    bottom: 20px;
+    font-size: 19px;
+}
+
+.red-circle {
+    position: relative;
+}
+
+.red-circle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -2px;
+    top: -21px;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    z-index: 3;
+}
+
+.red-circle::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -6px;
+    top: -25px;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    z-index: 2;
+}
+
+.yellow-circle {
+    position: relative;
+}
+
+.yellow-circle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -2px;
+    top: -21px;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    z-index: 3;
+}
+
+.yellow-circle::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -6px;
+    top: -25px;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(255, 196, 0);
+    z-index: 2;
+}
+
+footer {
+    background-color: #eeeeee;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+footer ul li {
+    list-style-type: none;
+
 }
 
 /* .right-side-img {
