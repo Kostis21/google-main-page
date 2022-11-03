@@ -272,22 +272,28 @@ header {
 
 footer {
     background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer ul {
     display: flex;
     flex-direction: row;
     gap: 13px;
+    margin-left: 6.5rem;
+    margin-bottom: 0;
 }
 
 footer ul li {
     list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 
 }
 
-/* footer p {
-    margin-left: ;
-} */
+footer p {
+    margin-left: 9rem;
+    font-size: 15px;
+}
 
 /* .right-side-img {
     flex: 1;
